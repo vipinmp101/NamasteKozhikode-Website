@@ -1,66 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Namaste Kozhikode</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+    <style>
+      /* Center website heading */
+      .heading {
+        text-align: center;
+      }
+      /* Add margin to description */
+      .description {
+        margin-top: 20px;
+      }
+      /* Style images */
+      .image {
+        display: inline-block;
+        width: 22%;
+        margin: 10px;
+      }
+      .image img {
+        width: 100%;
+      }
+      /* Add margin to text */
+      .text {
+        margin-top: 20px;
+      }
+      /* Style videos */
+      .video {
+        display: inline-block;
+        width: 28%;
+        margin: 10px;
+      }
+      .video video {
+        width: 100%;
+      }
+      /* Add footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      /* Style YouTube thumbnail */
+      .youtube-thumbnail {
+        display: inline-block;
+        width: 12%;
+        margin: 10px;
+      }
+      .youtube-thumbnail img {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-    <main>
-      <section id="hero">
-        <h1>Welcome to Namaste Kozhikode</h1>
-        <p>Discover the beauty of Kozhikode</p>
-      </section>
-      <section id="about">
-        <h2>About Kozhikode</h2>
-        <p>Kozhikode, also known as Calicut, is a city in the state of Kerala, India. It is known for its beautiful beaches, historic landmarks, and rich cultural heritage.</p>
-      </section>
-      <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="image1.jpg" alt="Kozhikode Image 1">
-          </div>
-          <div class="gallery-item">
-            <img src="image2.jpg" alt="Kozhikode Image 2">
-          </div>
-          <div class="gallery-item">
-            <img src="image3.jpg" alt="Kozhikode Image 3">
-          </div>
-        </div>
-      </section>
-      <section id="videos">
-        <h2>Videos</h2>
-        <div class="video-grid">
-          <div class="video-item">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fdm1BFYAhqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="#" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Namaste Kozhikode. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+    <!-- Website heading -->
+    <h1 class="heading">My Website</h1>
+    <!-- Description -->
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis est at lacus ullamcorper dignissim. Fusce congue nunc ac nulla posuere, ac malesuada lectus laoreet. Sed at nisi vel ante rhoncus faucibus. Praesent bibendum auctor dolor, nec ultrices lorem semper sed.</p>
+    <!-- Images row -->
+    <div class="images">
+      <div class="image">
+        <img src="https://via.placeholder.com/300x300.png?text=Image+1" alt="Image 1">
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/300x300.png?text=Image+2" alt="Image 2">
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/300x300.png?text=Image+3" alt="Image 3">
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/300x300.png?text=Image+4" alt="Image 4">
+      </div>
+    </div>
+    <!-- Text row -->
+    <p class="text">Donec ut ullamcorper magna, eu commodo ipsum. Maecenas id bibendum enim. Nullam ut leo aliquet, maximus felis vel, vestibulum mauris. Praesent auctor consequat mi, ut eleifend ante molestie nec.</p>
+    <!-- Videos row -->
+    <div class="videos">
+      <div class="video">
+        <video controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <div class="video">
+        <video controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <div class="video">
+        <video controls>
+         
